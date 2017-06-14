@@ -1,4 +1,4 @@
-##<img src="https://camo.githubusercontent.com/6ce15b81c1f06d716d753a61f5db22375fa684da/68747470733a2f2f67612d646173682e73332e616d617a6f6e6177732e636f6d2f70726f64756374696f6e2f6173736574732f6c6f676f2d39663838616536633963333837313639306533333238306663663535376633332e706e67"> Our Example Dentist Website
+## <img src="https://camo.githubusercontent.com/6ce15b81c1f06d716d753a61f5db22375fa684da/68747470733a2f2f67612d646173682e73332e616d617a6f6e6177732e636f6d2f70726f64756374696f6e2f6173736574732f6c6f676f2d39663838616536633963333837313639306533333238306663663535376633332e706e67"> Our Example Dentist Website
 
 We'll make an example Dentist website that has a `Home` page, a page that lists
 available `Procedures` and a page displaying `Contact` information. Each off
@@ -156,7 +156,7 @@ this so the content of the homepage is moved into its own component called
 8. Let's try it out! Look at the browser and see if the homepage appears. Unfortunately, if you've been following along, it won't. You'll see an
   error, which should look like this:
 
-![Home not defined](assets/home-not-defined-error.png)
+<img width="360" alt="home-not-defined-error" src="https://user-images.githubusercontent.com/4304660/27137933-d2d1b9ec-50e4-11e7-820e-c734eb921d3e.png">
 
 It's not enough to simply create the `Home.js` file and create the `Home`
 component. We must also remember to import the component into the `App.js` file. Any components you want to use in a file need to first be imported into that file.
@@ -306,7 +306,7 @@ wrap the routes with a `<div>`, the page will appear blank, and you'll have to
 open your JavaScript console to see that there's an error being logged to the
 console. Like so -
 
-![A Router may only have one child element.](assets/router-requires-only-one-child.png)
+<img width="719" alt="router-requires-only-one-child" src="https://user-images.githubusercontent.com/4304660/27137977-f6d2e208-50e4-11e7-81af-1e6374a759fe.png">
 
 
 **Pro tip:** It's a good habit to check the console for errors whenever your
@@ -440,8 +440,7 @@ semantic element that gives your HTML more meaning when people read it.
 So, our web app now looks like the left image - but do you see a difference between the left and the right?
 
 
-![Spaces must be inserted manually.](assets/manual-spaces-in-nav.png)
-
+<img width="530" alt="manual-spaces-in-nav" src="https://user-images.githubusercontent.com/4304660/27138270-c1643d78-50e5-11e7-8836-6dd12077159b.png">
 
 There's one slightly annoying thing about React here - React strips out whitespace between elements. If we write `<Link>` components next to each
 other, even if they're on new lines, React strips all of the whitespace
