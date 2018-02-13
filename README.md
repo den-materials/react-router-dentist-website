@@ -87,9 +87,10 @@ a dependency in our project.
 In your Terminal, enter:
 
 ```bash
-$ npm install --save react-router-dom
+$ npm install react-router-dom
 ```
 
+<!-- hand off to devs -->
 
 # Create Custom Homepage
 
@@ -137,6 +138,8 @@ export default App;
 Good. Now we have a simple homepage set up. Let's move on to getting the rest
 of the content for our site set up.
 
+<!-- hand off to devs -->
+
 # Creating Our Homepage Component
 We've been editing `App.js`, which defines one component for our entire
 application. So far our app manually shows just the homepage. Let's refactor
@@ -171,6 +174,8 @@ component. We must also remember to import the component into the `App.js` file.
 
 Your `App.js` and `Home.js` files should look like this after you've properly
 created and imported the `Home` component.
+
+<!-- hand off to devs -->
 
 **App.js**
 
@@ -267,6 +272,8 @@ other on the homepage. If you don't see content from all three of your
 components then something is wrong. You must fix this before continuing. Always:
 do simple things before doing complex things!
 
+<!-- turn  over to devs -->
+
 # Displaying Pages Individually
 
 Try manually deleting two of the three components so only one component is left
@@ -339,6 +346,7 @@ import {
   Link
 } from 'react-router-dom';
 ```
+<!-- turn  over to devs -->
 
 ## Fully Routed
 Here's how the imports and all the components look like together for our dentist
