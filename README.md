@@ -297,9 +297,9 @@ what component users will see when they navigate to the path.
 ```js
 <Router>
   <div>
-    <Route exact path="/" component={HomePage} />
-    <Route path="/courses" component={CoursesPage} />
-    <Route path="/locations" component={LocationsPage} />
+    <Route exact path="/" component={Home} />
+    <Route path="/procedures" component={Procedures} />
+    <Route path="/contact" component={Contact} />
   </div>
 </Router>
 ```
@@ -312,8 +312,8 @@ There are three other important things to note here:
 special extra `exact` attribute before defining the path. The `exact` attribute
 means the component associated with the route will only be shown if users are
 at exactly that URL path. If you forget to include the `exact` keyword then
-when someone navigates to `/courses` they will actually see two components,
-because `/` is a partial match for `/courses`.
+when someone navigates to `/contact` they will actually see two components,
+because `/` is a partial match for `/contact`.
 
 - Notice that all of the `<Route>` components are wrapped inside one `<div>`. Like `render`, the
 `<Router>` element requires that it only has one direct child element. If you don't
